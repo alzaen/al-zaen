@@ -11,7 +11,7 @@
 do
 
 function run(msg, matches)
-  return '❣@ahmed_al_zaen.git \n❣   #المطور @ahmed_al_zaen \n'
+  return '❣@ahmed_al_zaen.git \n❣   #المطور @ahmed_al_zaen تابع قناه البوت @al_zaen1\n'
 end
 
 return {
