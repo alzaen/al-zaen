@@ -13,7 +13,7 @@ local user = msg.from.id
 local chat = msg.to.id
 
 if msg.to.type ~= 'chat' then
-return "ممنوع نشر الروابط: الاعلانات :هنا"..'📝Name : '..msg.from.first_name..'\n'..'🔅اسم المستخدم : @'..msg.from.username..'\n'
+return "ممنوع نشر الروابط: الاعلانات :هنا"..'تـحـذيـر : '..msg.from.first_name..'\n'..'🔅اسم المستخدم : @'..msg.from.username..'\n'
 elseif user == tostring(our_id) then
 --[[A robot must protect its own existence as long as such protection does
 not conflict with the First or Second Laws.]]--
@@ -40,7 +40,11 @@ patterns = {
 ".[Ii][Rr]",
 ".[Cc][Oo][Mm]",
 "[Hh][Tt][Tt][Pp]://",
-"[Hh][Tt][Tt][Pp][Ss]://"
+"[Hh][Tt][Tt][Pp][Ss]://",
+".com",
+"http://",
+"https://",
+"adf.ly"
 },
 run = run,
 }
