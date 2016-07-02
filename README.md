@@ -1,8 +1,7 @@
-  al zaen BOT
+#  al_zaen bot
 
 
 
-```sh
 
  Let's install the bot.
 افتـح ترمنـــأل وخلي   
@@ -23,11 +22,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 🔸➖🔹➖🔸➖🔹➖
 ورأهأَ خلي  
 
-git clone https://github.com/alzaen/al-zaen.git
+git clone https://github.com/alzaen/al-zaen1.git
 🔸➖🔹➖🔸➖🔹➖
 ورهأ خلي    
 
-cd al-zaen
+cd al-zaen1
 🔸➖🔹➖🔸➖🔹➖
 ورهأَ خلي 
 
@@ -42,7 +41,7 @@ chmod +x launch.sh
 ./launch.sh 
 🔸➖🔹➖🔸➖🔹➖
 يطلب رقم خلي رقم البوت 
-مبروك عليك افضل بوت عل تلي 
+مبروك عليك افضل البوتات في التليجرام
 
  Enter a phone number & confirmation code.
 Congratulations, you better bot
@@ -65,7 +64,7 @@ redis-server
 وفتح ترمنال ثاني وخلي  
 ```sh
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/alzaen/al-zaen.git && cd al-zaen && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/alzaen/al-zaen1.git && cd al-zaen1 && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 🔸➖🔹➖🔸➖🔹➖
