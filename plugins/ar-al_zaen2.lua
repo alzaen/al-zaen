@@ -43,7 +43,7 @@ HELPE FOR ahmed al zaen
 🃏🔺للأستفسار:- راسل المطور :- ☢⚜ 
 ✋🏿👇🏿
 🔶DEV : @ahmed_al_zaen المطور
-🔶DEV : @al_zaenBOT لتواصل المحضورين
+🔶DEV : @al_zaenbot لتواصل المحضورين
 🔶Group Link : @al_zaen1 اشترك بالقناه
  ]]
 reply_msg(reply_id, S, ok_cb, false)
