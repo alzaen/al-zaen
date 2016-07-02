@@ -4,7 +4,7 @@
 ▀▄ ▄▀       BY ahmed_al_zaen              ▀▄ ▄▀ 
 ▀▄ ▄▀ BY ahmed_al_zaen (@ahmed_al_zaen)         ▀▄ ▄▀          
 ▀▄ ▄▀ JUST WRITED BY ahmed_al_zaen       ▀▄ ▄▀   
-▀▄ ▄▀          HELP2  : مساعدة2             ▀▄ ▄▀ 
+▀▄ ▄▀          HELP2  : مساعدة3             ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]] 
 do
@@ -53,7 +53,7 @@ return {
 description = "Help list", 
 usage = "Help list",
 patterns = {
-"^(مساعدة2)$",
+"^(مساعدة3)$",
 },
 run = run 
 }
