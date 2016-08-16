@@ -44,7 +44,7 @@ local S = [[  HELPE FOR @al_zaen القناه
 ✋🏿👇🏿
 🔶DEV : @ahmed_al_zaen المطور
 🔶DEV : @al_zaenbot لتواصل للمحضورين 
-🔶Group Link : @al_zaen1 اشترك بالقناه
+🔶Group Link : @al_zaen اشترك بالقناه
 ]]
 reply_msg(reply_id, S, ok_cb, false)
 end
