@@ -22,11 +22,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 🔸➖🔹➖🔸➖🔹➖
 ورأهأَ خلي  
 
-git clone https://github.com/alzaen/al-zaen1.git
+git clone https://github.com/alzaen/al-zaen.git
 🔸➖🔹➖🔸➖🔹➖
 ورهأ خلي    
 
-cd al-zaen1
+cd al-zaen
 🔸➖🔹➖🔸➖🔹➖
 ورهأَ خلي 
 
@@ -64,7 +64,7 @@ redis-server
 وفتح ترمنال ثاني وخلي  
 ```sh
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/alzaen/al-zaen1.git && cd al-zaen1 && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/alzaen/al-zaen.git && cd al-zaen && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 🔸➖🔹➖🔸➖🔹➖
