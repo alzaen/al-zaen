@@ -6,7 +6,7 @@ do local _ = {
     ["channel#id1047931708"] = false,
     ["channel#id1051673453"] = false,
     ["channel#id1056457365"] = false,
-    ["channel#id1063356234"] = false,
+    ["channel#id1063356234"] = false
   },
   enabled_plugins = {
     "admin",
