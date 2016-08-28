@@ -73,14 +73,14 @@ local function description_rules(msg, nama)
       local text = sambutan.."لروئية قوانين المجموعة /القوانين 🙏🏿      "
       local text = text..""
       local text = text.."                                               "
-      local text = text.."✋عزيزي الضيف يجب عليك احترام الاعضاء داخل المجموعة حتى لايتم طردك 😊    "
+      local text = text.."للخروج من المجموعة /مغادره ☹️"
       local text = text..""
       local text = text.."                                               "
-      local text = text.."✋ تابعونا على القناة البوت على رابط الاسفل 👇]"
+      local text = text.."من فضلك تابع قناة البوت❤️]"
       local text = text..""
       local text = text.."                                               "
       local text = text.." https://telegram.me/joinchat/Ch4a3D7wTPMTr3GFvZONqQ \n✋🏿☝🏿️"
-      local text = text.."☺️ فضولك حخليك تدخل للقناة على رابط 👆👆 "
+      local text = text.."✋ فضولك حخليك تدخل للقناة 👆👆"
       local receiver = get_receiver(msg)
       send_large_msg(receiver, text, ok_cb, false)
    end
