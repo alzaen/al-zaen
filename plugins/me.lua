@@ -1,31 +1,51 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY ahmed                   ▀▄ ▄▀ 
-▀▄ ▄▀     BY ahmed_al_zaen (@ahmed_al_zaen)    ▀▄ ▄▀ 
-▀▄ ▄▀ JUST WRITED BY ahmed_al_zaen       ▀▄ ▄▀   
-▀▄ ▄▀     ME BOT  : مي                ▀▄ ▄▀ 
+▀▄ ▄▀    BY ahmed al zaen                 ▀▄ ▄▀ 
+▀▄ ▄▀   BY ahmede   (@ahmed_al_zaen)      ▀▄ ▄▀ 
+▀▄ ▄▀ JUST WRITED BY MOHAMMED HISHAM       ▀▄ ▄▀   
+▀▄ ▄▀         ME   :  شنو اني              ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
 --]]
 do
 
-local function run(msg, matches)
+local function mohammedboss(msg, matches)
   if matches[1] == 'شنو اني' then
     if is_sudo(msg) then
     send_document(get_receiver(msg), "./files/me/sudo.webp", ok_cb, false)
-      return "🙀✋ انت المطور 🤖 مالتي😢 احمد الزين😻🐸"
+      return "✔️ نت المطور احمد الزين 😻🙊\n✔️ ️اسمك :"..msg.from.first_name.."\n" 
+   .."🚩ايديك :("..msg.from.id..")\n" 
+   .."🚩ايدي الكروب :("..msg.to.id..")\n" 
+   .."🚩معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
+   .."🚩رقمك :("..(msg.from.phone or "  لا يوجد ")..")\n"
     elseif is_admin1(msg) then
     send_document(get_receiver(msg), "./files/me/support.webp", ok_cb, false)
-      return "انت اداري  🌚💭"
+      return "✔️ نت اداري  🌚💭\n✔️ اسمك :"..msg.from.first_name.."\n" 
+   .."🚩ايديك :("..msg.from.id..")\n" 
+   .."🚩ايدي الكروب :("..msg.to.id..")\n" 
+   .."🚩معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
+   .."🚩رقمك :("..(msg.from.phone or "  لا يوجد ")..")\n"
     elseif is_owner(msg) then
     send_document(get_receiver(msg), "./files/me/owner.webp", ok_cb, false)
-      return "🙋 انت/ي منشئ المجموعه 🖐 يعني دوله وعلم🏃 🌺😍"
+      return "✔️ انت مدير المجموعه 🌺😍\n✔️ اسمك :"..msg.from.first_name.."\n" 
+   .."🚩ايديك :("..msg.from.id..")\n" 
+   .."🚩ايدي الكروب :("..msg.to.id..")\n" 
+   .."🚩معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
+   .."🚩رقمك :("..(msg.from.phone or "  لا يوجد ")..")\n"
     elseif is_momod(msg) then
     send_document(get_receiver(msg), "./files/me/moderator.webp", ok_cb, false)
-      return "😍انت/ي 🤓 مساعد/ة الكروب 🖖 يعني الادمن✔️✔️😻️"
-    else
+      return "✔️ نت ادمن ☺️\n✔️ اسمك :"..msg.from.first_name.."\n" 
+   .."🚩ايديك :("..msg.from.id..")\n" 
+   .."🚩ايدي الكروب :("..msg.to.id..")\n" 
+   .."🚩معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
+   .."🚩رقمك :("..(msg.from.phone or "  لا يوجد ")..")\n"
+          else
     send_document(get_receiver(msg), "./files/me/member.webp", ok_cb, false)
-      return "🐸😹 انت مجرد عضو طايح حظك 😂لا تحل ولا تربط بس لغوه بالمجموعه 😻😢"
+      return "✔️ نت مجرد عضو 😒💔\n✔️ اسمك :"..msg.from.first_name.."\n" 
+   .."🚩ايديك :("..msg.from.id..")\n" 
+   .."🚩ايدي الكروب :("..msg.to.id..")\n" 
+   .."🚩معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
+   .."🚩رقمك :("..(msg.from.phone or "  لا يوجد ")..")\n"
     end
   end
 end
@@ -35,6 +55,6 @@ return {
     "^(شنو اني)$",
     "^(شنو اني)$"
     },
-  run = run
+  run = mohammedboss
 }
 end
