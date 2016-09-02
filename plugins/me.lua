@@ -13,7 +13,7 @@ local function mohammedboss(msg, matches)
   if matches[1] == 'شنو اني' then
     if is_sudo(msg) then
     send_document(get_receiver(msg), "./files/me/sudo.webp", ok_cb, false)
-      return "✔️ نت المطور احمد الزين 😻🙊\n✔️ ️اسمك :"..msg.from.first_name.."\n" 
+      return "✔️انت المطور احمد الزين  😻🙊\n✔️ ️اسمك :"..msg.from.first_name.."\n" 
    .."🚩ايديك :("..msg.from.id..")\n" 
    .."🚩ايدي الكروب :("..msg.to.id..")\n" 
    .."🚩معرفك :(@"..(msg.from.username or "لا يوجد")..")\n" 
