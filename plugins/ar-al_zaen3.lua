@@ -27,7 +27,7 @@ return {
 description = "Shows bot q", 
 usage = "spam Shows bot q",
 patterns = {
-"مطور البوت$"
+"المطور$"
 },
 run = run 
 }
