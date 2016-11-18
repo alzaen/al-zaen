@@ -80,7 +80,7 @@ local function description_rules(msg, nama)
       local text = text..""
       local text = text.."                                               "
       local text = text.." https://telegram.me/joinchat/Ch4a3D7wTPMTr3GFvZONqQ \n✋🏿☝🏿️"
-      local text = text.."✋ فضولك حخليك تدخل للقناة 👆👆"
+      local text = text.."✋ قناة خاصه للاغاني حصريا اشترك بها"
       local receiver = get_receiver(msg)
       send_large_msg(receiver, text, ok_cb, false)
    end
